@@ -191,7 +191,7 @@ nav {
 
 .header__image::after {
   position: absolute;
-  content: "DARSHAN&  DIVYANSHU";
+  content: "DARSHAN";
   letter-spacing: 1.5rem;
   opacity: 0.5;
   right: 1rem;
@@ -467,3 +467,85 @@ nav {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* contact section */
+
+.contact_section {
+  position: relative;
+  /* background-color: #27223f; */
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.contact_section .heading_container {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+
+.contact_section .heading_container h2::before {
+  text-align: center;
+  /* left: 0; */
+  -webkit-transform: none;
+          transform: none;
+}
+
+
+.contact_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_section .form_container {
+  margin: 0%;
+  padding: 25px 25px 25px 25px;
+}
+
+
+.contact_section input {
+  width: 40%;
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+  color: #000000;
+  margin-top: 25px;
+  padding: 15px;
+}
+
+.contact_section input::-webkit-input-placeholder {
+  color: #2a2a2c;
+}
+
+.contact_section input:-ms-input-placeholder {
+  color: #2a2a2c;
+}
+
+.contact_section input::-ms-input-placeholder {
+  color: #2a2a2c;
+}
+
+.contact_section input::placeholder {
+  color: #2a2a2c;
+}
+
+.contact_section input.message-box {
+  padding: 45px 12px;
+}
+
+.contact_section button {
+  margin: 30px 0 0 auto;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  background-image: var(--gradient-2);
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
